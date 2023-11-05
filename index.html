@@ -18,16 +18,16 @@
             <div class="left">Pranava's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="#firstSection">Home</a></li>
+                    <li><a href="#secondSection">About</a></li>
+                    <li><a href="#thirdSection">Skills and Projects</a></li>
+                    <li><a href="#fifthSection">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="firstSection">
+        <section id="firstSection">
             <div class="leftSection">Hi, my name is <span class="purple">Pranava Sai</span>
                 <div>and I am a passionate</div>
                 <span id="element"></span>
@@ -37,10 +37,11 @@
             </div>
         </section>
         <hr>
-        <section class="secondSection">
+        <section id="secondSection">
             <h1>About</h1>
             <div class="about-text">
-                <p>Hello, I'm Pranava Sai, an aspiring Web Developer and Software Developer, eager to embark on a journey
+                <p>Hello, I'm Pranava Sai, an aspiring Web Developer and Software Developer, eager to embark on a
+                    journey
                     in the world of IT industry. While I may not have an extensive work history to share, my enthusiasm
                     and dedication to learning and growing in this field are boundless.</p>
                 <p>I recently completed my <span class="purple">Bachelors Degree</span> in <span
@@ -49,7 +50,7 @@
                     excited to apply in practical settings.</p>
         </section>
         <hr>
-        <section class="thirdSection">
+        <section id="thirdSection">
             <div class="skills">
                 <h1>Skills</h1>
                 <div class="box">
@@ -97,7 +98,7 @@
             </div>
         </section>
         <hr>
-        <section class="fourthSection">
+        <section id="fourthSection">
             <div class="projects">
                 <h2>Projects</h2>
                 <div class="box-1">
@@ -124,17 +125,44 @@
                     </div>
                     <div class="vertical-project">
                         <img class="image-top-2" src="img/developer.png" alt="">
-                        <div class="vertical-text-2">Automated railway gate system</div>
+                        <div class="vertical-text-2">Pdf merger web application</div>
                         <div class="project-desc">
-                            Designed and implemented an automated railway gate system featuring a high-speed alerting
-                            mechanism. Utilized Arduino and microcontrollers to create a robust solution for enhancing
-                            railway safety
+                            Developed a dynamic web application using JavaScript that seamlessly merges multiple PDF documents into a single file
                         </div>
                     </div>
                 </div>
             </div>
             </div>
             </div>
+            </div>
+        </section>
+        <hr>
+        <section id="fifthSection">
+            <div class="h-primary centre">
+                <h1>Contact Me</h1>
+                <div id="contact-box">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name">Name: </label>
+                            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="mail">Mail ID: </label>
+                            <input type="text" name="mail" id="mail" placeholder="Enter Your Mail ID">
+                        </div>
+                        <div class="form-group">
+                            <label for="mobile number">Mobile Number: </label>
+                            <input type="number" name="mobile number" id="mobile number"
+                                placeholder="Enter Your Mobile number">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message: </label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <button class="button">Submit</button>
+                </div>
+            </div>
+            </form>
             </div>
         </section>
         <hr>
